@@ -1,0 +1,75 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/* top */
+.bg{
+    height:40px;
+    width:40px;
+    border-radius: 40px;
+    background-color: rgba(128, 128, 128, 0.356);
+    font-size: 20px;
+    
+}
+.bi-envelope-fill,.bi-map-fill{
+    color: orangered;
+    font-size: 20px;
+}
+/* header */
+.villa{
+    font-size: 30px !important;
+    font-weight:800;
+}
+.con{
+    list-style-type: none !important;
+}
+.common{
+    font-weight:500 !important;
+    font-size: 20px;
+}
+.contact{
+    color:orangered !important;
+    font-size: 20px;
+}
+.common:hover{
+    color:orangered !important;
+}
+.circle{
+    height:50px;
+    width:50px;
+    border-radius: 50px;
+    background-color: orangered;
+    align-items: center;
+    color: white;
+}
+
+/* slider */
+.text{
+    font-size: 80px;
+}
+.category{
+    color:black;
+}
+em{
+    color: orangered !important;
+}
+
+/* best apartment */
+.back{
+    height:100px;
+    width:100px;
+    border-radius: 100px;
+    background-color: orangered;
+    right: 145vh;
+    top:60vh;
+}
+/* media query */
+@media screen and (max-width:480px) {
+    .toplayer{
+        display: none;
+    }
+}
