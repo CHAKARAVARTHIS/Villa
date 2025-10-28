@@ -15,6 +15,10 @@
     font-size: 20px;
     
 }
+.bg:hover{
+  background-color: orangered;
+}
+
 .bi-envelope-fill,.bi-map-fill{
     color: orangered;
     font-size: 20px;
